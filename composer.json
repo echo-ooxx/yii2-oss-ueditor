@@ -8,8 +8,10 @@
             "email": "zhanglimcgrady@sina.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "yiisoft/yii2": "*",
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
     "autoload": {
         "psr-4": {
             "echo-ooxx\\ossueditor\\": ""
